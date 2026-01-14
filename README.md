@@ -57,19 +57,25 @@ npm install -g newman-reporter-junitfull
 
 ```
 Verifikasi instalasi:
+```bat
 newman -v
-Cara Menjalankan Test (Windows)
-Run Test + Generate HTML Report
 newman run petStore-collection.json ^
 -e petStore-env.json ^
 -r cli,htmlextra ^
 --reporter-htmlextra-export reports\report.html
-
-Run Test + Generate XML (JUnit) Report
 newman run petStoreCollection.json ^
 -e petStore_env.json ^
 -r junitfull ^
 --reporter-junitfull-export reports\report.xml
+```
+---
+## 🚀 Test
+Run Test
+```bat
+newman run petStore-collection.json ^
+-e petStore-env.json ^
+-r cli,htmlextra ^  
+--reporter-htmlextra-export reports\report.html
 
 Report Output
 Setelah test dijalankan:
