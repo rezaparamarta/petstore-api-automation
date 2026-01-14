@@ -59,14 +59,7 @@ npm install -g newman-reporter-junitfull
 Verifikasi instalasi:
 ```bat
 newman -v
-newman run petStore-collection.json ^
--e petStore-env.json ^
--r cli,htmlextra ^
---reporter-htmlextra-export reports\report.html
-newman run petStoreCollection.json ^
--e petStore_env.json ^
--r junitfull ^
---reporter-junitfull-export reports\report.xml
+
 ```
 ---
 ## 🚀 Test
@@ -76,6 +69,18 @@ newman run petStore-collection.json ^
 -e petStore-env.json ^
 -r cli,htmlextra ^  
 --reporter-htmlextra-export reports\report.html
+```
+
+```bat
+newman run petStore-collection.json ^
+-e petStore-env.json ^
+-r cli,htmlextra ^
+--reporter-htmlextra-export reports\report.html
+newman run petStoreCollection.json ^
+-e petStore_env.json ^
+-r junitfull ^
+--reporter-junitfull-export reports\report.xml
+```
 
 Report Output
 Setelah test dijalankan:
