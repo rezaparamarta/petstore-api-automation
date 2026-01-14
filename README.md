@@ -45,9 +45,16 @@ cd petstore-api-automation
 ## 📦 Instalasi
 Install Newman & Reporter:
 Jalankan perintah berikut satu kali saja:
+```bat
 npm install -g newman
+```
+Install Newman HTML Extra Reporter & JUnit Reporter:
+```bat
 npm install -g newman-reporter-htmlextra
+```
+```bat
 npm install -g newman-reporter-junitfull
+
 ```
 Verifikasi instalasi:
 newman -v
