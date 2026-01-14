@@ -91,6 +91,7 @@ XML report dapat digunakan untuk CI/CD atau Test Management Tool.
 
 Test Coverage
 ✅ Positive Case
+```
 Create new pet
 Get pet by valid ID
 Update existing pet
@@ -98,6 +99,7 @@ Find pets by valid status
 Create user
 Get user by valid username
 Delete pet by valid ID
+```
 ❌ Negative Case
 Get pet with non-existent ID
 Delete pet with non-existent ID
