@@ -101,6 +101,7 @@ Get user by valid username
 Delete pet by valid ID
 ```
 ❌ Negative Case
+```
 Get pet with non-existent ID
 Delete pet with non-existent ID
 Create pet with missing required field
@@ -108,9 +109,16 @@ Update pet with invalid data type
 Find pets with invalid status
 Get non-existent user
 Delete non-existent user
+```
 ⚠️ Edge Case
+```
 Create pet with negative category and tag ID
+```
+
+---
+## 📝 Assertion
 🔗 Request Chaining Flow
+```
 Automation ini menggunakan request chaining, antara lain:
 Create Pet
 Menyimpan petId ke environment
@@ -121,6 +129,7 @@ Menyimpan username
 Get / Delete User
 Menggunakan username dari environment
 Chaining dikelola melalui Postman Environment Variables.
+```
 
 👤 Author
 
