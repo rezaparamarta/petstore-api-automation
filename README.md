@@ -28,11 +28,13 @@ Pastikan environment berikut sudah ter-install sebelum menjalankan test:
 
 ---
 ## Project Structure
+```
 petstore-api-automation/
 │
 ├── petStoreCollection.json # Postman Collection
 ├── petStore_env.json # Postman Environment
 └── README.md
+```
 ---
 ## ⬇️ Clone Repository
 Clone repository ini ke local machine:
