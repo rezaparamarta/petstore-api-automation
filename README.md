@@ -31,8 +31,11 @@ Pastikan environment berikut sudah ter-install sebelum menjalankan test:
 ```
 petstore-api-automation/
 │
-├── petStoreCollection.json # Postman Collection
-├── petStore_env.json # Postman Environment
+├── postman
+  ├── collection
+    ├── petStoreCollection.json # Postman Collection
+  ├── environment
+    ├── petStore_env.json # Postman Environment
 └── README.md
 ```
 ---
